@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #color-box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: #cccccc; /* couleur par défaut */
+    border: 1px solid #000;
+  }
+  
+  #change-color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #change-color-btn:hover {
+    background-color: #45a049;
+  }
+  
